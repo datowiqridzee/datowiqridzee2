@@ -10,4 +10,3 @@ def capitalize(s):
             even_capitalized += s[index]
             odd_capitalized += s[index].upper()
     
-    return [even_capitalized, odd_capitalized]

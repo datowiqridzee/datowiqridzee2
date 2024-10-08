@@ -1,2 +1,8 @@
 def number(lines):
-    return [f"{i + 1}: {line}" for i, line in enumerate(lines)]
+    result = []
+    
+    for index in range(len(lines)):
+        word = str(index + 1) + ": " + lines[index]
+        result.append(word)
+    
+    return result
